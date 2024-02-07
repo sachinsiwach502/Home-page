@@ -411,19 +411,18 @@
 }
 
 .height-100-vh {
-    height: 200vh;
+    height: 170vh;
 }
 
-/* @media (max-width:2000px) {
+@media (max-width:768px) {
     .height-100-vh {
-        height: 100vh;
+        height: 200vh;
     }
+}
 
-    .height-60-vh {
-        height: 60vh;
-    }
-} */
-
+.height-60-vh {
+    height: 85vh;
+}
 
 .road {
     right: 38%;
@@ -438,7 +437,7 @@
 }
 
 .tl {
-    top: 20%;
+    top: 10%;
 }
 
 .card-heading {
