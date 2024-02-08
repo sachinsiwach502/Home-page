@@ -39,6 +39,13 @@
     color: red;
 }
 
+/* 
+.nav-btn:hover {
+    background-color: #F4241E;
+    color: #fff;
+    border: none;
+} */
+
 .nav-link:hover {
     color: red;
 }
@@ -466,9 +473,9 @@
 
 
 .bg_yellow {
-    --bs-accordion-active-bg: yellow;
-    --bs-accordion-bg: yellow;
-    --bs-accordion-btn-bg: yellow;
+    --bs-accordion-active-bg: #FFF03F;
+    --bs-accordion-bg: #FFF03F;
+    --bs-accordion-btn-bg: #FFF03F;
     /* max-width: 600px; */
 }
 
