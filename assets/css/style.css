@@ -75,8 +75,9 @@
         cursor: pointer;
         z-index: 1;
         position: fixed;
-        left: 93%;
+        /* left:93%; */
         top: 2%;
+        right: 3%;
     }
 
     label[for="menuIcon"] span {
@@ -101,7 +102,7 @@
 }
 
 .height-60-vh {
-    height: 100vh;
+    height: 60vh;
 }
 
 .img-1 {
@@ -164,6 +165,8 @@
 
 .section-btn {
     width: 219px;
+    margin-bottom: 40px;
+    cursor: pointer;
     height: 53px;
     top: 1355.21px;
     left: 300px;
@@ -414,9 +417,9 @@
     height: 170vh;
 }
 
-@media (max-width:768px) {
+@media (max-width:576px) {
     .height-100-vh {
-        height: 200vh;
+        height: 150vh;
     }
 }
 
@@ -493,4 +496,14 @@
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section-btn:hover {
+    background-color: white;
+    color: #F4241E;
+
+}
+
+.footer-1:hover {
+    transform: translate(0, -4px);
 }
